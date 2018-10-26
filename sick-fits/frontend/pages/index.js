@@ -6,9 +6,7 @@ const Home = (props) => (
             <Fragment>
 
                 <h4> This is Home </h4>
-                <Link href="/sell">
-                    <a>Sell </a>
-                </Link>
+
             </Fragment>
 )
 
