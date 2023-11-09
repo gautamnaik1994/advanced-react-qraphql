@@ -1,0 +1,602 @@
+repo_name: gautamnaik1994/advanced-react-qraphql
+report_id: 692bd43a43ac76fd6cd0720cba4f916a
+repo_type: Public
+timestamp: '2023-11-09T18:29:49+00:00'
+requested_by: gautam-bidchat
+provider: github
+branch: master
+detected_tools_count: 42
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Next.js
+  description: 'A small framework for server-rendered universal JavaScript apps '
+  website_url: https://nextjs.org/
+  version: 7.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-05-14 16:01:48.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 3.4.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source: stepped-solutions/54/backend/src/schema.graphql
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-10-09 18:53:14.000000000 Z
+- name: Prisma
+  description: Modern Database Access for TypeScript &amp; Node.js
+  website_url: https://www.prisma.io/
+  version: 1.17.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/8680/Logo_Symbol_White.jpg
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-10-09 18:53:14.000000000 Z
+- name: graphql-yoga
+  description: "\U0001F9D8 Fully-featured GraphQL Server with focus on easy setup,
+    performance &amp; great developer experience"
+  website_url: https://github.com/prisma/graphql-yoga
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/9556/68747470733a2f2f696d6775722e636f6d2f5376366a3042362e706e67.png
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-10-09 18:53:14.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-14 19:37:33.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-14 19:37:33.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-13 18:18:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2017-08-09 02:09:05.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 1.18.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-10-09 18:53:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-01-30 17:41:01.000000000 Z
+- name: Apollo
+  description: GraphQL server for Express, Connect, Hapi, Koa and more
+  website_url: https://www.apollographql.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/5508/CyUH653y.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source: finished-application/frontend/config.js
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-13 18:18:56.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-02-13 22:04:00.000000000 Z
+- name: downshift
+  description: Primitive to build simple, flexible, WAI-ARIA compliant enhanced input
+    React components
+  website_url: https://github.com/paypal/downshift
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10155/no-img-open-source.png
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: apollo-boost
+  description: The easiest way to get started with Apollo Client
+  package_url: https://www.npmjs.com/apollo-boost
+  version: 0.1.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17935/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: apollo-client
+  description: A simple yet functional GraphQL client
+  package_url: https://www.npmjs.com/apollo-client
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16731/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Matt Wood
+  last_updated_on: 2018-10-09 17:06:03.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Matt Wood
+  last_updated_on: 2018-10-09 17:06:03.000000000 Z
+- name: babel-plugin-module-resolver
+  description: Module resolver plugin for Babel
+  package_url: https://www.npmjs.com/babel-plugin-module-resolver
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16171/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Matt Wood
+  last_updated_on: 2018-10-09 17:06:03.000000000 Z
+- name: babel-plugin-styled-components
+  description: Improve the debugging experience and add server-side rendering support
+    to styled-components
+  package_url: https://www.npmjs.com/babel-plugin-styled-components
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16651/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Matt Wood
+  last_updated_on: 2018-10-09 17:06:03.000000000 Z
+- name: babel-preset-env
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/babel-preset-env
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15814/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-10-09 18:53:14.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-01-30 17:41:01.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-05-16 02:15:36.000000000 Z
+- name: enzyme-adapter-react-16
+  description: JavaScript Testing utilities for React
+  package_url: https://www.npmjs.com/enzyme-adapter-react-16
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: enzyme-to-json
+  description: Convert enzyme wrapper to a format compatible with Jest snapshot
+  package_url: https://www.npmjs.com/enzyme-to-json
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16252/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-13 18:18:56.000000000 Z
+- name: graphql-tag
+  description: A JavaScript template literal tag that parses GraphQL queries
+  package_url: https://www.npmjs.com/graphql-tag
+  version: 2.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16631/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: graphql-tools
+  description: Useful tools to create and manipulate GraphQL schemas
+  package_url: https://www.npmjs.com/graphql-tools
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16697/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-06-11 20:44:09.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-04-05 17:54:22.000000000 Z
+- name: nodemailer
+  description: Easy as cake e-mail sending from your Node.js applications
+  package_url: https://www.npmjs.com/nodemailer
+  version: 4.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16278/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-10-09 18:53:14.000000000 Z
+  vulnerabilities:
+  - name: Command injection in nodemailer
+    cve_id: CVE-2020-7769
+    cve_url: https://github.com/advisories/GHSA-48ww-j4fc-435p
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 6.4.16
+  - name: Header injection in nodemailer
+    cve_id: CVE-2021-23400
+    cve_url: https://github.com/advisories/GHSA-hwqf-gcqm-7353
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 6.6.1
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: finished-application/backend/package-lock.json
+  detection_source: sick-fits/backend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-06-11 19:39:47.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-01-30 17:39:31.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-13 18:18:56.000000000 Z
+- name: react-apollo
+  description: React Apollo Hooks, Components, and HOC
+  package_url: https://www.npmjs.com/react-apollo
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17111/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 2.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: finished-application/frontend/package-lock.json
+  detection_source: sick-fits/frontend/package.json
+  last_updated_by: Wes Bos
+  last_updated_on: 2018-09-27 14:42:49.000000000 Z
